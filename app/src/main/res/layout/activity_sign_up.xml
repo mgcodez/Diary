@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    android:padding="10dp">
+    <TextView
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please Enter Your Details properly"/>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:background="@color/cardview_light_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <EditText
+        android:drawableTint="#000"
+        android:drawableLeft="@android:drawable/ic_dialog_email"
+        android:id="@+id/mail"
+        android:layout_marginTop="20dp"
+        android:inputType="textEmailAddress"
+        android:hint="  Mail Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:drawableLeft="@android:drawable/ic_menu_sort_alphabetically"
+        android:id="@+id/name"
+        android:drawableTint="#000"
+        android:layout_marginTop="18dp"
+        android:hint="  User Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:drawableLeft="@android:drawable/ic_secure"
+        android:hint="  Password"
+        android:id="@+id/pass"
+        android:inputType="textPassword"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:drawableLeft="@android:drawable/ic_secure"
+        android:id="@+id/cpass"
+        android:layout_marginTop="15dp"
+        android:inputType="textPassword"
+        android:hint="  Confirm Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/sup"
+        android:background="#ede1a1"
+        android:text="SignUp"
+        style="@style/Base.AlertDialog.AppCompat.Light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Already User?"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="12dp" />
+        <TextView
+            android:id="@+id/sin"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="#442cf7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign In"/>
+
+    </LinearLayout>
+</LinearLayout>

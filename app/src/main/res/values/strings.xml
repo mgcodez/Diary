@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Diary</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string-array name="tags">
+        <item>general</item>
+        <item>travel</item>
+        <item>love</item>
+        <item>functions</item>
+        <item>sweet_moments</item>
+        <item>sads_angry</item>
+    </string-array>
+    <string-array name="months">
+        <item>1,JANUARY</item>
+        <item>2,FEBRUARY</item>
+        <item>3,MARCH</item>
+        <item>4,APRIL</item>
+        <item>5,MAY</item>
+        <item>6,JUNE</item>
+        <item>7,JULY</item>
+        <item>8,AUGUST</item>
+        <item>9,SEPTEMBER</item>
+        <item>10,OCTOBER</item>
+        <item>11,NOVEMBER</item>
+        <item>12,DECEMBER</item>
+    </string-array>
+    <string name="title_activity_calendar_nav">CalendarNav</string>
+</resources>

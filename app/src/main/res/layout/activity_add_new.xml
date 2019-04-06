@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="#e4e7ea"
+    tools:context="online.diary.AddNew">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="D "
+                    android:textStyle="bold"
+                    android:textSize="40dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/addDate"
+                    android:text=" DD/MM/YYYY "
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        <EditText
+            android:visibility="gone"
+            android:id="@+id/addTitle"
+            android:hint="Add 2 to 3 lines of title"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="#tags  "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        <Spinner
+            android:id="@+id/addTags"
+            android:entries="@array/tags"
+            android:textColor="#a9189d"
+            android:background="@drawable/textbox"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+            </LinearLayout>
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@+id/addIm"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <Button
+                    android:id="@+id/button"
+                    android:text="Upload with Image?"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+                <ImageView
+                    android:layout_marginLeft="30dp"
+                    android:id="@+id/addImage"
+                    android:layout_gravity="center"
+                    android:backgroundTint="#919"
+                    android:gravity="center"
+                    android:background="@android:drawable/ic_menu_camera"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+            </LinearLayout>
+    <EditText
+        android:background="@android:color/transparent"
+        android:hint="write your description here"
+        android:padding="10dp"
+        android:textStyle="italic"
+        android:id="@+id/addMessage"
+        android:gravity="top|left"
+        android:minLines="1"
+        android:lines="50"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="220dp" />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/save"
+        android:tint="#FFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_menu_save" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Home"
+            android:icon="@android:drawable/ic_menu_week"
+            android:checked="true"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_photos"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Photos" />
+        <item
+            android:id="@+id/nav_prof"
+            android:icon="@drawable/contact"
+            android:title="Profile" />
+        <item android:title="#tags">
+            <menu>
+                <item
+                    android:id="@+id/nav_general"
+                    android:title="#general"/>
+                <item
+                    android:id="@+id/nav_travel"
+                    android:title="#travel" />
+                <item
+                    android:id="@+id/nav_love"
+                    android:title="#love" />
+                <item
+                    android:id="@+id/nav_functions"
+                    android:title="#functions" />
+                <item
+                    android:id="@+id/nav_sweet"
+                    android:title="#Sweet Momemts" />
+                <item
+                    android:id="@+id/nav_sad"
+                    android:title="#Sads and Angry" />
+            </menu>
+        </item>
+        <item android:title="contact">
+            <menu>
+                <item
+                    android:id="@+id/nav_feedback"
+                    android:title="Feedback" />
+            </menu>
+        </item>
+    </group>
+</menu>

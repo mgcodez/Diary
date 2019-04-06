@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "345148470476",
+    "firebase_url": "https://newdiary-435cc.firebaseio.com",
+    "project_id": "newdiary-435cc",
+    "storage_bucket": "newdiary-435cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:345148470476:android:37e0aa93c7ca39b8",
+        "android_client_info": {
+          "package_name": "amni.diary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "345148470476-bg9ah8qn0rg8d5p3uo5elgh2mb6ig0kd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "amni.diary",
+            "certificate_hash": "6e2ed7bda99149db5291e60d5a7a967d8b362723"
+          }
+        },
+        {
+          "client_id": "345148470476-aq2ossrd6kcflfh76ndm1088tl593j95.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYPRW43nVqOBvVGEytmHvGoTb5dqjdttY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "345148470476-aq2ossrd6kcflfh76ndm1088tl593j95.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

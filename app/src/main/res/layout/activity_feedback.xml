@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="#e4e7ea">
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+            <EditText
+                android:id="@+id/addName"
+                android:textStyle="bold"
+                android:drawableLeft="@android:drawable/ic_menu_more"
+                android:hint="  Name"
+                android:textColor="@color/colorPrimary"
+                android:background="@drawable/textbox"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+            <EditText
+                android:padding="10dp"
+                android:textStyle="italic"
+                android:id="@+id/addFeed"
+                android:gravity="top|left"
+                android:minLines="5"
+                android:lines="50"
+                android:textColor="@color/colorPrimary"
+                android:background="@drawable/textbox"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/send"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_margin="@dimen/fab_margin"
+                app:srcCompat="@android:drawable/ic_menu_send" />
+</LinearLayout>
