@@ -15,7 +15,7 @@ public class AddEntry {
     private String mFId;
 
     public AddEntry(){
-        //this constructor is required.
+        //this constructor is required
     }
 
     public AddEntry(String mATitle, String mBDescription, String mCDate,String mDUser,String mETags,String mFId) {
